@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Amita:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    position:relative;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.row div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+h1, h2, h3, h4{
+    text-align: center;
+    font-family:  'Cinzel Decorative',cursive;
+}
+
+div{
+    color: #d4af37;
+    font-family:  'Amita',cursive;
+    font-size: 2.8vmin;
+}
+h1{
+    font-size: 12vmin;
+    color: #fff;
+}
+h2{
+    font-size: 8vmin;
+    color:#fff;
+}
+
+div a{
+    color: #000000;
+    text-decoration: inherit;
+    text-decoration-style: inherit;
+}
+
+a{
+    color: #000 !important;
+    opacity: 0.7;
+}
+
+a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 3px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #f96e5b;
+    }
+    footer{
+        background-color:#0691A4;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 80vh;
+    text-align: center;
+    background-image:url(../images/ca4.png);
+
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 250px;
+    text-align: center;
+    background: #000;
+}
+
+.duty-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    background: #000
+}
+
+.prize-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #000;
+}
+
+.prize-section li{
+    padding-top: 50px
+}
+
+.reg-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    background: #000;
+}
+
+ div label {
+  font-size: 3.8vmin;
+}
+
+div input{
+    float: left;
+    color: black;
+}
+
+label{
+    font-size: 3.8vmin;
+}
+
+div.wrap div{
+    text-align: left;
+    margin-top: 15px;
+}
+.bt {
+    margin: auto;
+    float: none;
+}
+
+@media(max-width:480px) {
+    .duty-section {
+        height: 100%;
+    }
+    .intro-section {
+        padding-top: 75vh;
+    }
+
+    div{
+        font-size: 3.6vmin;
+    }
+}
+
+@media(max-width:980px){
+.intro-section {
+    padding-top: 70vh;
+    }
+}
+
+
+

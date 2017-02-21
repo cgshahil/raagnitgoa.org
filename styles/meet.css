@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+.mob{
+	display: none !important;
+}
+
+@media screen and (max-width: 480px){
+	.mob{
+		display: inline-block !important;
+	}
+
+	.pc{
+		display: none !important;
+	}
+}
+
+
+.container{
+	width:85%;
+	margin:auto;
+	background:rgba(125,0,0,0.60);
+}
+body{
+	background:rgba(0,0,105,0.60);
+}
+h1, h2, h3, h4{
+	color:#FFFFFF;
+	font-family:'Cinzel Decorative', cursive;
+}
+
+hr{
+	color:red;
+}
+
+.grid, .grid1 {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.grid:after, .grid1:after,
+.item:before, .item1:before {
+	content: '';
+    display: table;
+}
+
+.grid:after, .grid1:after {
+	clear: both;
+}
+
+.grid li, .grid1 li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.grid1{
+	margin-top:5%;
+}
+
+.item, .item1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.info-wrap{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
+}
+
+.info{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.info .info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+}
+
+/* ####~~ Profiles ~~####*/
+
+.img-0 { 
+	background-image: url(../images/ann.jpg);
+	background-size:220px;
+}
+.img-00{
+	background-image: url(../images/ann1.jpg);
+	background-size:220px;
+}
+
+.img-1 { 
+	background-image: url(../images/ash.jpg);
+	background-size:220px;
+}
+.img-11 { 
+	background-image: url(../images/ash1.jpg);
+	background-size:220px;
+}
+
+.img-2 { 
+	background-image: url(../images/bhvn.jpg);
+	background-size:220px;
+}
+.img-22{
+	background-image: url(../images/bhvn1.jpg);
+	background-size:220px;
+}
+
+.img-3 { 
+	background-image: url(../images/yamini.jpg);
+	background-size:220px;
+}
+.img-33 { 
+	background-image: url(../images/yamini1.jpg);
+	background-size:220px;
+}
+
+.img-4 { 
+	background-image: url(../images/machu.jpg);
+	background-size:220px;
+}
+.img-44 { 
+	background-image: url(../images/machu1.jpg);
+	background-size:220px;
+}
+
+.img-5 { 
+	background-image: url(../images/sandy.jpg);
+	background-size:220px;
+}
+.img-55 { 
+	background-image: url(../images/sandy1.jpg);
+	background-size:220px;
+}
+
+.img-6 { 
+	background-image: url(../images/priya.jpg);
+	background-size:220px;
+}
+.img-66 { 
+	background-image: url(../images/priya1.jpg);
+	background-size:220px;
+}
+
+.img-7 { 
+	background-image: url(../images/pallu.jpg);
+	background-size:220px;
+}
+.img-77 { 
+	background-image: url(../images/pallu1.jpg);
+	background-size:220px;
+}
+
+.img-8 { 
+	background-image: url(../images/kul.jpg);
+	background-size:220px;
+}
+.img-88 { 
+	background-image: url(../images/kul1.jpg);
+	background-size:220px;
+}
+
+.img-9 { 
+	background-image: url(../images/me.jpg);
+	background-size:220px;
+}
+.img-99 { 
+	background-image: url(../images/me1.jpg);
+	background-size:220px;
+}
+
+.img-01 { 
+	background-image: url(../images/leevin.jpg);
+	background-size:220px;
+}
+.img-001 { 
+	background-image: url(../images/leevin1.jpg);
+	background-size:220px;
+}
+
+.img-02 { 
+	background-image: url(../images/raj.jpg);
+	background-size:220px;
+}
+.img-002 { 
+	background-image: url(../images/raj1.jpg);
+	background-size:220px;
+}
+
+.img-03 { 
+	background-image: url(../images/prnv.jpg);
+	background-size:220px;
+}
+.img-003 { 
+	background-image: url(../images/prnv1.jpg);
+	background-size:220px;
+}
+
+.img-04 { 
+	background-image: url(../images/athira.jpg);
+	background-size:220px;
+}
+.img-004 { 
+	background-image: url(../images/athira1.jpg);
+	background-size:220px;
+}
+
+/* ####~~ /Profiles ~~####*/
+
+.item1{
+	top:-50px;
+}
+
+.info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 0 15px;
+	padding: 40px 0 0 0;
+	height: 90px;
+	font-family: 'Cinzel Decorative', cursive;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.info p {
+	color: #fff;
+	padding: 10px 5px;
+	border-radius:0 0 40% 40% ;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 16px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	background-color:rgba(23,23,23,0.7)
+}
+
+.info p a {
+	display: block;
+	color: #fff;
+
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-top: 0px;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.info p a:hover {
+	color: #fff;
+
+}
+
+.item:hover .info-wrap, .item1:hover .info-wrap{
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.item:hover .info, .item1:hover .info{
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
+
+.title, footer{
+	text-align: center;
+	color:#a1a1a1;
+}
+.top{
+	background-color:#f96e5b;
+	text-align:center;
+	padding-top:.5vmin;
+	padding-bottom:.5vmin;
+	color:#000000 !important;
+}
+.top:hover{
+	background-color:#0691A4;
+	color:#000000 !important;
+}
+
+a{ text-decoration:inherit !important;
+	color:inherit !important;}
+
+@media screen and (max-width: 817px) and (min-width: 140px) {
+
+.item1{
+	top:0px;
+}
+}

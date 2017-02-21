@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+body{
+	background-image:url(../images/bg.jpg);
+ background-size:100vw 100vh;
+ background-repeat:no-repeat;
+ background-position:top;
+ height:100vh;
+ width:100vw;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+
+.ttimage1{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	animation: fade 5s linear;
+	opacity: 0;
+}
+.ttimage2{
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	animation: fadein 7s linear;
+	opacity: 1;
+}
+
+.background p{
+  	color:  hsla(50,100%,33%,1.00);
+  	font-weight:600;
+  	font-family: 'Cinzel Decorative', cursive;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	width: 30em;
+	position: absolute;
+	top: 74%;
+	left:38%;
+	font-size:3.5vmin;
+  	animation: type 3s steps(70, end); 
+}
+
+.ttimage1 {
+	background-image: url('../image/tt.png');
+}
+
+.ttimage2 img{
+	margin-left: 25.8%;
+	margin-right: 25.8%;
+	margin-top: 12vh;
+	width: 48.8%;
+}
+
+embed{
+	text-align:center;
+	margin-left:18.5%;
+	margin-right:18.5%;
+	margin-top:15.2vh;
+	width:65%;
+}
+@keyframes fade{
+	from{opacity:1;}
+	to{opacity: 0;}
+}
+
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity: 1;}
+}
+
+#text-1, #text-2{ 
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+	text-decoration:inherit;
+}
+
+.background {
+	z-index: 1;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.middle{
+	z-index: 5;
+	width: 100%;
+	height:100vh;
+	background:transparent;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.top{
+	z-index: 10;
+	width: 100%;
+	height:100vh;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+#menu{
+
+}
+
+#Box{
+	top:0; left:0;
+	position:relative;
+	height:100vh;
+	padding-top:10%;
+	text-align:center;
+}
+
+#box-1 {
+	animation:box-effects;
+	animation-duration:2s;
+	animation-timing-function: ease-in-out;
+}
+#box-2{
+	animation:box-effects;
+	animation-duration:3s;
+	animation-timing-function: ease-in-out;
+}
+#box-3{
+	animation:box-effects;
+	animation-duration:4s;
+	animation-timing-function: ease-in-out;
+}
+#box-4 {
+	animation:box-effects;
+	animation-duration:5s;
+	animation-timing-function: ease-in-out;
+}
+#box-5{
+	animation:box-effects;
+	animation-duration:6s;
+	animation-timing-function: ease-in-out;
+}
+#box-6{
+	animation:box-effects;
+	animation-duration:7s;
+	animation-timing-function: ease-in-out;
+}
+#box-7{
+	animation:box-effects;
+	animation-duration:8s;
+	animation-timing-function: ease-in-out;
+}
+#box-8{
+	animation:box-effects;
+	animation-duration:9s;
+	animation-timing-function: ease-in-out;
+}
+#box-10{
+	animation:box-effects;
+	animation-duration:10s;
+	animation-timing-function: ease-in-out;
+}
+#box-11{
+	animation:box-effects;
+	animation-duration:11s;
+	animation-timing-function: ease-in-out;
+}
+
+#box-1 div, #box-2 div, #box-3 div, #box-4 div, #box-5 div, #box-6 div, #box-7 div, #box-8 div, #box-10 div, #box-11 div{
+	text-align: center;
+	color: #d4af37 !important;
+	background: rgba(86,86,86,0);
+	font-size: 5.6vmin ;
+	padding:5px 20px;
+	border-radius:20%;
+	align-content:center;
+}
+
+#box-1 div:hover, #box-2 div:hover, #box-3 div:hover, #box-4 div:hover,#box-10 div:hover{
+	text-align: center;
+	color: #0062FF !important;
+	padding:5px 20px;
+	font-size: 5.6vmin;
+}
+#box-5 div:hover, #box-6 div:hover, #box-7 div:hover, #box-8 div:hover, #box-11 div:hover{
+	text-align: center;
+	color: #FD1C03 !important;
+	padding:5px 20px;
+	font-size: 5.6vmin;
+}
+
+#box-1 div h1, #box-2 div h1, #box-3 div h1, #box-4 div h1, #box-5 div h1, #box-6 div h1, #box-7 div h1, #box-8 div h1, #box-10 div h1, #box-11 div h1{
+	font-size:3.2vmin;
+	text-align: center;
+	animation:text-effects;
+	animation-duration:5s;
+	animation-timing-function: ease-in-out;
+	font-family: 'Cinzel Decorative', cursive;
+}
+@keyframes text-effects{
+	0%{ opacity:0;}
+	60% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes box-effects {
+	0%   { opacity:0;}
+	80% { opacity:1;}
+}
+
+@keyframes type{ 
+  from {width:0;} 
+} 
+
+a{ text-decoration:inherit !important;
+	color:inherit !important;}

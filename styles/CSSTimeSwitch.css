@@ -1,0 +1,29 @@
+/*--- after 01:00  -----*/
+body.night {background:#a1a1a1}
+body.night #timer {background:url(../img/0100.gif) 80px top no-repeat;}
+body.night h1 {color: #8f8f8f;}
+
+/*--- after 07:00  -----*/
+body.morning {background:#cff1ff}
+body.morning #timer {background:url(../img/0700.gif) 80px top no-repeat;}
+body.morning h1 {color: #515e64;}
+
+/*--- after 11:00  -----*/
+body.noon {background:#e2ffcf}
+body.noon #timer {background:url(../img/1100.gif) 80px top no-repeat;}
+body.noon h1 {color: #7b8574;}
+
+/*--- after 13:00  -----*/
+body.afternoon {background:#fff7cf}
+body.afternoon #timer {background:url(../img/1300.gif) 80px top no-repeat;}
+body.afternoon h1 {color: #9b967e;}
+
+/*--- after 17:00  -----*/
+body.late-afternoon {background:#ffd3a8}
+body.late-afternoon #timer {background:url(../img/1700.gif) 80px top no-repeat;}
+body.late-afternoon h1 {color: #856e57;}
+
+/*--- after 20:00  -----*/
+body.evening {background:#fab74e}
+body.evening #timer {background:url(../img/2000.gif) 80px top no-repeat;}
+body.evening h1 {color: #6f5832;}

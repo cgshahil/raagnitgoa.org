@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Amita:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+
+body{
+    background-color:black;
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	color:#D4AF37;
+    font-family: 'Cinzel Decorative' cursive !important;
+}
+legend.reg{
+	color:#D4AF37;
+    font-family: 'Cinzel Decorative' cursive !important;
+}
+
+form.frm1{
+    background:rgba(137,0,0,.4);
+    margin-left: 2vw;
+}
+
+form.frm2{
+    background:rgba(0,0,124,.4);
+    margin-right: 2vw;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    height: 10vh
+
+}
+
+.cat, .cat1{
+    text-align: right;
+    margin-top: 2vh;
+}
+h4{
+    text-align: left;
+}
+
+.cat1{
+    background: rgba(0,0,0, .7);
+    padding:20px;
+}
+
+.cat{
+    background:  rgba(0,0,0, .7);
+    padding:20px;
+}
+
+
+.top{
+	background-color:#f96e5b;
+	padding-top:.5vmin;
+	padding-bottom:.5vmin;
+	color:#000000 !important;
+    text-align: center !important;
+}
+.top:hover{
+	background-color:#0691A4;
+	color:#000000 !important;
+}
+
+a{ text-decoration:inherit !important;
+	color:inherit !important;}
+
+@media screen and (max-width: 480px) and (min-width: 140px) {
+
+    form.frm1{
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    form.frm2{
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    textarea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vw;
+        height: 10vh
+    }
+
+}

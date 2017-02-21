@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Amita:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+#bl, #bl1{
+	background:#a1a1a1 !important;
+	width: 200px !important;
+	height:95px !important;
+	outline: 1px solid black;
+	text-align:center;
+	margin:auto;
+}
+hr{
+	border-color: black;
+}
+
+img.coc{
+	background: red;
+}
+a:hover #bl, a:hover #bl1{
+	color: #fff;
+}
+.row, h1, p, a{
+	text-align:center;
+}
+
+body{
+     background-position: center;
+background: rgba(255,255,255,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+img{
+	background:#FFFFFF;
+}
+h1,h2,h3,h4, p{
+	color:#000;
+	font-family:  'Cinzel Decorative',cursive;
+	text-align: center !important;
+}
+a{
+	text-decoration:inherit;
+	color:#000;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center !important;
+}
+
+a:hover{
+	text-decoration:inherit;
+	color:#a1a1a1;
+}
+
+.top{
+	background-color:#f96e5b;
+	text-align:center;
+	padding-top:.5vmin;
+	padding-bottom:.5vmin;
+	color:#000000 !important;
+}
+.top:hover{
+	background-color:#0691A4;
+	color:#000000 !important;
+}
+
+
+h1{
+	padding-top: 6vmin;
+}
+
+@media screen and (max-width: 480px) {
+.hid{
+	display: none;
+}
+}

@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Amita:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+
+.row{
+    margin-top: 0px !important;
+}
+p.sz{
+	font-size:4vh !important;
+	font-weight: 900 !important;
+}
+a{
+    text-decoration: inherit;
+    text-decoration-style: inherit;
+    color: inherit;
+}
+a:hover{
+    text-decoration: inherit;
+    text-decoration-style: inherit;
+    color: inherit;
+}
+.btn{
+    background: rgba(30,144,255,1);
+}
+
+body{
+    background-color:black;
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: 'Amita',cursive !important;
+    color: black !important;
+}
+.jumbotron{
+    background: #ffcc66;
+    margin-top: 8vh;
+}
+
+.navbar{
+    background-color: #f96e5b;
+    color:#000000 !important;
+}
+
+.navbar a, h1{
+    color:#000000 !important;
+    font-weight: 700;
+}
+
+li.active > a{
+    background-color:#0691A4 !important;
+    color: #fff !important;
+}
+
+li> a:hover{
+    background-color:#0691A4 !important;
+    color: #fff !important;
+}
+
+h1{
+    text-align: center;
+}
+
+div.l{
+    text-align: left;
+    color: wheat;
+}
+
+div{
+    text-align: center;
+}
+
+div.pre div{
+    background: darkgrey;
+    -webkit-transition: height 3s; /* Safari */
+    transition: height 3s;
+
+}
+
+.m{
+        margin-top: 5px;;
+}
+
+
+div.pre div:hover {
+    height: 30vmin;
+}
+
+h4 a::after{
+    background-color: darkred;
+}
+.panel-heading{
+    background-color: #e1e1e1 !important;
+    color: black !important;
+}
+
+h4{
+    font-size:3.2vh !important;
+}
+
+.panel{
+    background-color: darkgoldenrod;
+}
+
+.panel-footer{
+    background-color: #c1c1c1;
+    font-family: 'Amita', cursive;
+    color: black;
+}
+
+#rd{
+       
+}
+
+.panel-footer:hover{
+    background-color: #f4f4f4;    
+}
+
+h1, .panel-heading, .navbar{
+    font-family:  'Cinzel Decorative',cursive;
+}
+
+.panel-body .panel-body{
+    font-family: 'Amita', cursive;
+    font-size: 2.4vh;
+    background-color: #336699;
+    color: #ffcc66;
+}
+
+.panel-body .panel-heading{
+    background-color: #336699;
+}
+div.panel-body div.panel-title{
+    font-size: 8px !important;
+}

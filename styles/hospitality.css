@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Amita:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Cinzel Decorative', cursive !important;
+}
+
+body{
+
+    background-position: center;
+background: rgba(255,255,255,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+
+h1{
+    font-weight: 700;
+    padding-top: 50px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lsid{
+    border-right: 1px #d2d2d2 solid;
+}
+hr{
+    border-color: #d2d2d2 !important;   
+}
+hr.half{
+    width: 40%;
+    text-align:left !important;
+    margin-left: 0;
+}
+hr.qrt{
+    width: 10%;
+    text-align:left !important;
+    margin-left:0;
+}
+
+p{
+    font-family: 'Amita', cursive;
+    color: #000;
+    font-size: 120%;
+}
+
+.top{
+	background-color:#f96e5b;
+	padding-top:.5vmin;
+	padding-bottom:.5vmin;
+	color:#000000 !important;
+    text-align: center !important;
+    z-index: 10;
+}
+.top:hover{
+	background-color:#0691A4;
+	color:#000000 !important;
+}
+
+a{ text-decoration:inherit !important;
+	color:inherit !important;}
+
+hr{
+    border: 1px solid #0691A4; 
+}
+
+a.spl:hover{
+    color: firebrick !important;
+}
+
+/* For Mobile Landscape view */	
+@media screen and (max-width: 480px) and (min-width: 140px) {
+
+h2{
+    font-size: 7vmin;
+}
+
+}
+
